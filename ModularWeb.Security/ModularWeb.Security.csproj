@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ExtCore.Mvc.Infrastructure" Version="4.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Areas\Security\Views\Default\Index.Template.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="ClientApp\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ClientApp\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ClientApp\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
+</Project>

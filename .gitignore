@@ -1,0 +1,7 @@
+bin
+obj
+node_modules
+.idea
+wwwroot
+
+ModularWeb\.Security/Areas/Security/Views/Default/Index\.cshtml

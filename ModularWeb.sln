@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{F12C8E36-CF1F-4497-A691-EBC179E84467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModularWeb.Security", "ModularWeb.Security", "{8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWeb.Security", "ModularWeb.Security\ModularWeb.Security.csproj", "{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWeb.Security.Web", "ModularWeb.Security.Web\ModularWeb.Security.Web.csproj", "{8843B432-ED5D-4825-988D-6603F718C0CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6} = {F12C8E36-CF1F-4497-A691-EBC179E84467}
+		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8} = {8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6}
+		{8843B432-ED5D-4825-988D-6603F718C0CA} = {8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8843B432-ED5D-4825-988D-6603F718C0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8843B432-ED5D-4825-988D-6603F718C0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8843B432-ED5D-4825-988D-6603F718C0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8843B432-ED5D-4825-988D-6603F718C0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

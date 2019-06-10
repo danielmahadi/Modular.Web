@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWeb.Authentication",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWeb.Authentication.Web", "ModularWeb.Authentication.Web\ModularWeb.Authentication.Web.csproj", "{8843B432-ED5D-4825-988D-6603F718C0CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FCC277A1-50A8-447E-9841-A14F90B59ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Web", "Modular.Web\Modular.Web.csproj", "{F0583D41-793C-4D12-BE52-EF27DBC2A308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,7 @@ Global
 		{8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6} = {F12C8E36-CF1F-4497-A691-EBC179E84467}
 		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8} = {8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6}
 		{8843B432-ED5D-4825-988D-6603F718C0CA} = {8ED59B10-DC3F-4CB9-97CE-0A9ACC3A70C6}
+		{F0583D41-793C-4D12-BE52-EF27DBC2A308} = {FCC277A1-50A8-447E-9841-A14F90B59ECE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{97BFFD05-2C44-4D9E-8D94-3C46A7A3BDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,5 +32,9 @@ Global
 		{8843B432-ED5D-4825-988D-6603F718C0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8843B432-ED5D-4825-988D-6603F718C0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8843B432-ED5D-4825-988D-6603F718C0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0583D41-793C-4D12-BE52-EF27DBC2A308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0583D41-793C-4D12-BE52-EF27DBC2A308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0583D41-793C-4D12-BE52-EF27DBC2A308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0583D41-793C-4D12-BE52-EF27DBC2A308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

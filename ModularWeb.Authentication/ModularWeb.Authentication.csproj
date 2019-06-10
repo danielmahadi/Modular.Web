@@ -10,23 +10,22 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="Areas\Security\Views\Default\Index.Template.cshtml" />
+      <Content Include="Areas\Authentication\Views\Default\Index.Template.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="ClientApp\**" />
+      <Compile Remove="wwwroot\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="ClientApp\**" />
+      <EmbeddedResource Remove="wwwroot\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="ClientApp\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot" />
+      <None Remove="wwwroot\**" />
     </ItemGroup>
 
 </Project>

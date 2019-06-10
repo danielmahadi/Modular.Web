@@ -13,10 +13,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ModularWeb.Security\ModularWeb.Security.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <_ContentIncludedByDefault Remove="Areas\Security\Views\Default\Index.cshtml" />
       <_ContentIncludedByDefault Remove="wwwroot\app.js" />
       <_ContentIncludedByDefault Remove="wwwroot\main.2c2696d82baa525c947e.js" />
@@ -50,6 +46,10 @@
       <Content Remove="wwwroot\**" />
       <Content Remove="ClientApp\**" />
       <Content Remove="Areas\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ModularWeb.Authentication\ModularWeb.Authentication.csproj" />
     </ItemGroup>
 
 </Project>

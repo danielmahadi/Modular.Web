@@ -3,8 +3,8 @@ const fs = require("fs");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: "../Areas/Security/Views/Default/Index.Template.cshtml",
-  filename: "../Areas/Security/Views/Default/Index.cshtml",
+  template: "../Areas/Authentication/Views/Default/Index.Template.cshtml",
+  filename: "../Areas/Authentication/Views/Default/Index.cshtml",
   inject: "body"
 });
 

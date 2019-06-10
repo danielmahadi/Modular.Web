@@ -20,7 +20,10 @@
       "launchBrowser": false,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "IDENTITYCORE_COOKIES_NAME": "ModularWeb",
+        "IDENTITYCORE_MONGO_DB_CONNECTIONSTRING": "mongodb://localhost:27017",
+        "IDENTITYCORE_MONGO_DB_DATABASE": "ModularWeb_Users"
       }
     }
   }

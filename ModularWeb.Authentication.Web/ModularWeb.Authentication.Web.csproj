@@ -9,7 +9,7 @@
         <PackageReference Include="ExtCore.WebApplication" Version="4.0.0" />
         <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="2.2.0" />
-        <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.2.7" />
     </ItemGroup>
 
     <ItemGroup>
